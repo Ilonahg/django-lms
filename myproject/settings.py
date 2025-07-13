@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 'rest_framework',
 'users',
 'lms',
+    "django_filters"
 ]
 
 MIDDLEWARE = [
@@ -124,6 +125,7 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 AUTH_USER_MODEL = 'users.User'
+
 
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
